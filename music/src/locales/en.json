@@ -1,0 +1,92 @@
+{
+    "home": {
+        "listen": "Listen to Great Music!",
+        "songs": "Songs",
+        "header_text": "Browse, upload, and enjoy! Welcome to the music community platform where you can not only share your own creations but also explore and revel in music shared by other users. Whether you're a passionate artist or an avid music lover, this is your place to hear the latest hits and discover hidden gems!"
+    },
+    "song": {
+        "comment_count": "No comments | 1 comment | {count} comments",
+        "comment_here": "Your comment here...",
+        "submit": "Submit",
+        "latest": "Latest",
+        "oldest": "Oldest",
+        "comment_added": "Comment added!",
+        "comment_submitted": "Please wait! Your comment is being submitted",
+        "posted": "Posted"
+    },
+    "register": {
+        "accept": "I accept Music's {0}",
+        "tos": "Terms of Service",
+        "name": "Name",
+        "enter_name": "Enter Name",
+        "email": "Email",
+        "enter_email": "Enter Email",
+        "age": "Age",
+        "password": "Password",
+        "confirm_password": "Confirm Password",
+        "country": "Country",
+        "finland": "Finland",
+        "sweden": "Sweden",
+        "norway": "Norway",
+        "submit": "Submit",
+        "being_created": "Please wait! Your account is being created.",
+        "error": "An unexpected error occurred. Please try again later.",
+        "created": "Success! Your account has been created."
+    },
+    "login": {
+        "email": "Email",
+        "enter_email": "Enter Email",
+        "password": "Password",
+        "submit": "Submit",
+        "logging_in": "Please wait! We are logging you in.",
+        "invalid": "Invalid login details.",
+        "logged_in": "Success! You are now logged in."
+    },
+    "manage": {
+        "my_songs": "My Songs",
+        "unsaved_changes": "You have unsaved changes. Are you sure you want to leave?"
+    },
+    "header": {
+        "about": "About",
+        "manage": "Manage",
+        "logout": "Logout",
+        "login_register": "Login / Register"
+    },
+    "upload": {
+        "upload": "Upload",
+        "drop_files": "Drop your files here"
+    },
+    "auth": {
+        "your_account": "Your account",
+        "login": "Login",
+        "register": "Register"
+    },
+    "composition": {
+        "updating_song": "Please wait! Updating song info.",
+        "something_wrong": "Something went wrong! Try again later",
+        "success": "Success!",
+        "song_title": "Song Title",
+        "enter_song_title": "Enter Song Title",
+        "genre": "Genre",
+        "enter_genre": "Enter Genre",
+        "submit": "Submit",
+        "back": "Go Back"
+    },
+    "validation": {
+        "required": "The field {field} is required.",
+        "min": "The field {field} is too short.",
+        "max": "The field {field} is too long.",
+        "alpha_spaces": "The field {field} may only contain alphabetical characters and spaces.",
+        "email": "The field {field} must be a valid email address.",
+        "min_value": "The value for field {field} is too low.",
+        "max_value": "The value for field {field} is too high.",
+        "excluded": "You can't use this value for the field {field}.",
+        "country_excluded": "Due to restrictions, we do not accept users from this location.",
+        "passwords_mismatch": "The passwords do not match.",
+        "tos": "You must accept the Terms of Service.",
+        "default_error": "The field {field} is invalid."
+    },
+    "player": {
+        "uploaded": "uploaded by"
+    }
+}

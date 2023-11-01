@@ -1,0 +1,92 @@
+{
+    "home": {
+        "listen": "Kuuntele hienoa musiikkia!",
+        "songs": "Kappaleet",
+        "header_text": "Selaa, lataa ja nauti! Tervetuloa musiikin yhteisöalustalle, jossa voit paitsi ladata omaa tuotantoasi, myös tutustua ja nauttia muiden käyttäjien jakamasta musiikista. Olitpa sitten intohimoinen artisti tai innokas musiikin ystävä, tämä on paikkasi kuulla uusimmat hitit ja löytää piilotettuja helmiä!"
+    },
+    "song": {
+        "comment_count": "Ei kommentteja | 1 kommentti | {count} kommenttia",
+        "comment_here": "Kirjoita kommenttisi tähän...",
+        "submit": "Lähetä",
+        "latest": "Uusimmat",
+        "oldest": "Vanhimmat",
+        "comment_added": "Kommentti lisätty!",
+        "comment_submitted": "Ole hyvä ja odota! Kommenttiasi lähetetään",
+        "posted": "Lähetetty"
+    },
+    "register": {
+        "accept": "Hyväksyn Musiikin {0}",
+        "tos": "käyttöehdot",
+        "name": "Nimi",
+        "enter_name": "Syötä Nimi",
+        "email": "Sähköposti",
+        "enter_email": "Syötä Sähköposti",
+        "age": "Ikä",
+        "password": "Salasana",
+        "confirm_password": "Vahvista Salasana",
+        "country": "Maa",
+        "finland": "Suomi",
+        "sweden": "Ruotsi",
+        "norway": "Norja",
+        "submit": "Lähetä",
+        "being_created": "Ole hyvä ja odota! Käyttäjätiliäsi luodaan.",
+        "error": "Odottamaton virhe tapahtui. Yritä uudelleen myöhemmin.",
+        "created": "Onnistui! Käyttäjätilisi on luotu."
+    },
+    "login": {
+        "email": "Sähköposti",
+        "enter_email": "Syötä Sähköposti",
+        "password": "Salasana",
+        "submit": "Lähetä",
+        "logging_in": "Ole hyvä ja odota! Kirjaamme sinut sisään.",
+        "invalid": "Virheelliset kirjautumistiedot.",
+        "logged_in": "Onnistui! Olet nyt kirjautunut sisään."
+    },
+    "manage": {
+        "my_songs": "Omat kappaleeni",
+        "unsaved_changes": "Sinulla on tallentamattomia muutoksia. Oletko varma, että haluat poistua?"
+    },
+    "header": {
+        "about": "Tietoa",
+        "manage": "Hallinnoi",
+        "logout": "Kirjaudu ulos",
+        "login_register": "Kirjaudu sisään / Rekisteröidy"
+    },
+    "upload": {
+        "upload": "Lataa",
+        "drop_files": "Pudota tiedostosi tähän"
+    },
+    "auth": {
+        "your_account": "Sinun tilisi",
+        "login": "Kirjaudu sisään",
+        "register": "Rekisteröidy"
+    },
+    "composition": {
+        "updating_song": "Ole hyvä ja odota! Päivitämme kappaleen tietoja.",
+        "something_wrong": "Jotain meni pieleen! Yritä uudelleen myöhemmin.",
+        "success": "Onnistui!",
+        "song_title": "Kappaleen Otsikko",
+        "enter_song_title": "Syötä Kappaleen Otsikko",
+        "genre": "Tyylilaji",
+        "enter_genre": "Syötä Tyylilaji",
+        "submit": "Lähetä",
+        "back": "Takaisin"
+    },
+    "validation": {
+        "required": "Kenttä {field} on pakollinen.",
+        "min": "Kenttä {field} on liian lyhyt.",
+        "max": "Kenttä {field} on liian pitkä.",
+        "alpha_spaces": "Kenttä {field} saa sisältää vain aakkosmerkkejä ja välilyöntejä.",
+        "email": "Kenttä {field} täytyy olla kelvollinen sähköpostiosoite.",
+        "min_value": "Kenttä {field} arvo on liian pieni.",
+        "max_value": "Kenttä {field} arvo on liian suuri.",
+        "excluded": "Et voi käyttää tätä arvoa kentälle {field}.",
+        "country_excluded": "Rajoitusten vuoksi emme hyväksy käyttäjiä tästä sijainnista.",
+        "passwords_mismatch": "Salasanat eivät täsmää.",
+        "tos": "Sinun on hyväksyttävä käyttöehdot.",
+        "default_error": "Kenttä {field} on virheellinen."
+    },
+    "player": {
+        "uploaded": "ladannut"
+    }
+}

@@ -1,0 +1,133 @@
+a {
+  transition: all 0.15s ease;
+}
+
+.no-active {
+  color: white;
+}
+
+a:hover, .no-active:hover {
+  color: #f59e0b;
+  text-decoration: none;
+}
+
+.text-orange {
+  color: #f59e0b !important;
+  fill: #f59e0b !important;
+}
+
+.card-header .fa.text-orange,
+.card .card-header .fas.text-orange {
+  color: #ff5e3a;
+  fill: #ff5e3a;
+}
+
+.introduction-bg {
+  z-index: -1;
+}
+
+#playlist li:first-child {
+  padding-top: 25px;
+}
+
+.upload-dropbox.upload-dropbox-drag {
+  color: #fff;
+  background-color: #20d862;
+  border-color: #20d862;
+  border-style: solid;
+}
+
+input[type="file"] {
+  margin-top: 20px;
+}
+
+.text-outline {
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.progress-bar {
+  background-size: 1rem 1rem;
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  animation: progress-bar-stripes 1s linear infinite;
+}
+
+.music-header {
+  height: 650px;
+
+  @media (max-width: 2000px) {
+    height: 650px;
+  }
+
+  @media (max-width: 1600px) {
+    height: 500px;
+  }
+
+  @media (max-width: 1200px) {
+    height: 400px;
+  }
+
+  @media (max-width: 1000px) {
+    height: 300px;
+  }
+
+  @media (max-width: 800px) {
+    height: auto;
+  }
+}
+
+@keyframes progress-bar-stripes {
+  0% {
+    background-position: 1rem 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.color-change-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(38, 0, 255, 0.5);
+  opacity: 0.2;
+  z-index: 1; 
+}
+
+.color-change-animation {
+  animation: colorChange 6s infinite;
+}
+
+@keyframes colorChange {
+  0%, 100% {
+    opacity: 0.2;
+    background-color: rgba(38, 0, 255, 0.5);
+  }
+  20% {
+    opacity: 0.3;
+    background-color: rgba(72, 0, 191, 0.5);
+  }
+  40% {
+    opacity: 0.3;
+    background-color: rgba(0, 0, 255, 0.5);
+  }
+  60% {
+    opacity: 0.3;
+    background-color: rgba(0, 127, 255, 0.5);
+  }
+  80% {
+    opacity: 0.3;
+    background-color: rgba(0, 191, 255, 0.5);
+  }
+}
