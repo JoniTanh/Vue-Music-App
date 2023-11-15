@@ -1,40 +1,44 @@
 # Vue Music App
 
-Huom! README.md sisältö tulee muuttumaan.
+## About
 
-This template should help get you started developing with Vue 3 in Vite.
+The Vue Music App is a dynamic and user-friendly platform designed for music enthusiasts. Built with Vue 3 and Vite, this app provides a seamless experience for users to engage with music in various ways. Whether you're looking to explore new tunes, manage your music library, or connect with other music lovers, this app offers a range of features to enhance your music experience.
 
-- sisään ja uloskirjautuminen
-- rekisteröinti
-- voi kuunnella ja ladata musiikkia
-- voi kommentoida
-- voi poistaa ja muokata vain omia kappaleitansa
+## Features
 
-- Tailwind
-- Pinia
-- ESLint
-- Firebase
-- Howler.js
-- Internationalization: i18n
-- Voi deployjata esim. Vercel hobby projekteja ilmasiks
-- Testing: Vitest: Unit, Snapshot, End-to-End (E2E)
+- `User Authentication:` Secure sign-in and sign-out functionality.
+- `Registration:` Easy user registration process.
+- `Music Playback:` Listen to a wide range of music.
+- `Music Download:` Option to download your favorite tracks.
+- `User Interaction:` Engage with the community by commenting on tracks.
+- `Content Management:` Users can delete or modify their own songs.
 
-Vaihtaako mahdollisesti Options API -> Composition API?
+## Technologies Used
 
-Background Imaget luotu hyödyntäen Leonardo.Ai:
-https://app.leonardo.ai/
+- `Tailwind:` For stylish and responsive design.
+- `Pinia:` State management made simple.
+- `ESLint:` Ensuring code quality and consistency.
+- `Firebase:` Robust backend for user authentication, database, and storage.
+- `Howler.js:` For handling audio functionalities.
+- `Internationalization (i18n):` Making the app accessible to a global audience.
+- `Deployment:` Easily deployable on platforms like Vercel for hobby projects.
+- `Testing:` Comprehensive testing using Vitest, including unit, snapshot, and end-to-end tests.
 
-Firebase
+## Background Images
 
-Firebasesta käytössä:
+Created using Leonardo.Ai: https://app.leonardo.ai/
 
-- Firestore Database
-- Authentication
-- Storage
+## Firebase
 
-https://firebase.google.com/
+Firebase features in use:
 
-Määritä Firebasen Cloud Firestore säännöt esim. seuraavasti:
+- `Firestore Database:` For managing app data.
+- `Authentication:` User authentication services.
+- `Storage:` Cloud storage for user data.
+
+For more information, visit https://firebase.google.com/
+
+Firebase Cloud Firestore Rules:
 
 ```text
 allow read: if true;
@@ -43,7 +47,7 @@ allow create: if request.auth != null;
 allow delete: if request.auth.uid == resource.data.uid;
 ```
 
-Määritä Firebasen Storage-säännöt esim. seuraavasti:
+Firebase Storage Rules:
 
 ```text
 allow read: if true;
@@ -53,33 +57,42 @@ allow write: if request.auth != null &&
 allow delete: if request.auth != null;
 ```
 
-Luo seuraavanlainen includes/firebase.js -tiedosto, jonne laitat omat firebaseConfig tiedot:
+Firebase Configuration:
+
+Create a `includes/firebase.js` file and include your Firebase configuration:
 
 ```javascript
-import firebase from 'firebase/app'
-import 'firebase/auth'
-import 'firebase/firestore'
-import 'firebase/storage'
+import firebase from "firebase/app";
+import "firebase/auth";
+import "firebase/firestore";
+import "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: '',
-  authDomain: '',
-  projectId: '',
-  storageBucket: '',
-  appId: ''
-}
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  appId: "",
+};
 
-firebase.initializeApp(firebaseConfig)
+firebase.initializeApp(firebaseConfig);
 
-const auth = firebase.auth()
-const db = firebase.firestore()
-const storage = firebase.storage()
+const auth = firebase.auth();
+const db = firebase.firestore();
+const storage = firebase.storage();
 
-const usersCollection = db.collection('users')
-const songsCollection = db.collection('songs')
-const commentsCollection = db.collection('comments')
+const usersCollection = db.collection("users");
+const songsCollection = db.collection("songs");
+const commentsCollection = db.collection("comments");
 
-export { auth, db, usersCollection, storage, songsCollection, commentsCollection }
+export {
+  auth,
+  db,
+  usersCollection,
+  storage,
+  songsCollection,
+  commentsCollection,
+};
 ```
 
 ## Recommended IDE Setup
